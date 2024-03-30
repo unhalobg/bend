@@ -1,0 +1,16 @@
+{
+    "source": {
+        "include": ["database", "middlewares", "routers"],
+        "includePattern": ".js$",
+        "excludePattern": "(node_modules/|doc)"
+    },
+    "plugins": ["plugins/markdown"],
+    "templates": {
+        "cleverLinks": true,
+        "monospaceLinks": true
+    },
+    "opts": {
+        "recuse": true,
+        "destination": "./docs/"
+    }
+}

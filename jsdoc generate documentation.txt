@@ -1,0 +1,4 @@
+npm i -g jsdoc
+jsdoc -r ./middlewares ./routers -d ./docs
+
+the documentation will be in the 'docs' directory
